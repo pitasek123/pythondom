@@ -1,6 +1,9 @@
-x = "Hello world"
+x = input()
 
-x = x * 2
+print(type(x))
+
+x = float(x)
+x += 2
 
 print(x)
 print(type(x))
