@@ -20,20 +20,46 @@
 
 # Instrukcja warunkowe cd.
 
-imie = input("Podaj swoje imię: ")
-nazwisko = input("Podaj swoje nazwisko: ")
-wiek = int(input("Podaj swój wiek: "))
-cena = int(input("Podaj cenę depilatora: "))
+# imie = input("Podaj swoje imię: ")
+# nazwisko = input("Podaj swoje nazwisko: ")
+# wiek = int(input("Podaj swój wiek: "))
+# cena = int(input("Podaj cenę depilatora: "))
 
-print("Witaj {imie}".format(imie=imie))
-print("Twoje nazwisko to {nazwisko}".format(nazwisko=nazwisko))
-print("Masz {wiek} lat!".format(wiek=wiek))
+# print("Witaj {imie}".format(imie=imie))
+# print("Twoje nazwisko to {nazwisko}".format(nazwisko=nazwisko))
+# print("Masz {wiek} lat!".format(wiek=wiek))
 
-if cena >= 500:
-    print("Chyba cię pogrzało, {cena} za depilator!?".format(cena=cena))
+# if cena >= 500:
+    # print("Chyba cię pogrzało, {cena} za depilator!?".format(cena=cena))
 
-else:
-    print("No za {cena} tyle to jeszcze ujdzie!".format(cena=cena))
+# else:
+    # print("No za {cena} tyle to jeszcze ujdzie!".format(cena=cena))
+
+# LISTY
+
+# produkty = ["Mleko" , "Ser" , "Parówki"]
+
+# produkty.append("Jogurt") - dodanie elemntu do listy
+# print(produkty.count("Ser")) - zliczenie z listy
+# print(produkty)
+
+# LISTA - wypisanie kolorów tęczy
+# Liczby = [2 , 3 , 5 , 7 , 11 , 13]
+# Kolory = ['Czerwony' , 'Pomarańczowy' , 'Żółty' , 'Zielony' , 'Niebieski'
+# 'Indigo' , 'Fioletowy']
+# print(Kolory[0])
+# print('Print the rainbow')
+# for i in range(len(Kolory)):
+    # print(Kolory[i])
+
+# SŁOWNIKI
+
+person = {"wiek": 20, "imie": "Piotrek", "nazwisko": "Małyszka"}
+
+for i in range(len(person)):
+    print(person[i])
+
+
 
 
 
