@@ -1,6 +1,2 @@
-x = 10
-print(x)
-
-y = 10
-y = y * 3.5
-print(y)
+name = input('Podaj swoje imie: \n')
+nazwwisko = input('Podaj swoje nazwisko: \n')

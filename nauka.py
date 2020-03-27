@@ -54,10 +54,9 @@
 
 # SŁOWNIKI
 
-person = {"wiek": 20, "imie": "Piotrek", "nazwisko": "Małyszka"}
+# person = {"wiek": 20, "imie": "Piotrek", "nazwisko": "Małyszka"}
 
-for i in range(len(person)):
-    print(person[i])
+
 
 
 
