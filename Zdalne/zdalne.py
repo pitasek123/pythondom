@@ -72,7 +72,7 @@
 
 ## ZADANIE 8 ##
 
-# lista = []
+# lista = ['j' , "Asia"]
 
 # a = input("Podaj a: ")
 # b = input("Podaj b: ")
@@ -81,27 +81,33 @@
 
 # lista.append(a)
 # lista.append(b)
-
 # print(lista)
 
-## ZADANIE 9 ##
-
-# a = input("Podaj liczbe wielocyfrowa: ")
-# a = int(a)
 
 ## ZADANIE 10 ##
-# import sys
+import sys
 
-# for i in [1, 2, 3, 4, 5]:
-#     for j in[1, 2, 3, 4, 5]:
-#         if i == 3:
-#             sys.stdout.write('H')
-#         else:
-#             if j in[1, 5]:
-#                 sys.stdout.write('H')
-#             else:
-#                 sys.stdout.write(' ')
-#     sys.stdout.write('\n')
+licznik=0
+
+for i in range(1,10):
+    if i == 1:
+        sys.stdout.write('A')
+  
+    
+    
+    
+
+    
+        
+
+    
+        
+    
+        
+
+    
+
+
 
 ## ZADANIE 12 ##
 
