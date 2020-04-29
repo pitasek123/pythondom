@@ -85,29 +85,7 @@
 
 
 ## ZADANIE 10 ##
-import sys
-
-licznik=0
-
-for i in range(1,10):
-    if i == 1:
-        sys.stdout.write('A')
-  
-    
-    
-    
-
-    
-        
-
-    
-        
-    
-        
-
-    
-
-
+## ZADANIE 11 ##
 
 ## ZADANIE 12 ##
 
