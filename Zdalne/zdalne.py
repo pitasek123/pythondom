@@ -1,11 +1,11 @@
 
-## ZADANIE 1 ##
+# ## ZADANIE 1 ##
 
 a = input("Podaj zdanie, w ktorym policze spacje: ")
 x = a.count(' ')
 print(x)
 
-## ZADANIE 2 ##
+# ## ZADANIE 2 ##
 
 import sys
 
@@ -27,7 +27,8 @@ if x < 0:
     x *= -1
 print(f"Wartosc bezwzgledna z podanej liczby wynosi {x}")
 
-## ZADANIE 5##
+# ## ZADANIE 5##
+
 a = input("Podaj a: ")
 b = input("Podaj b: ")
 c = input("Podaj c: ")
@@ -41,13 +42,14 @@ if 0 < a <=10 and a > b and  b > c:
 else:
     print("Warunek nie jest spelniony!")   
 
-## ZADANIE 6 ##
+# ## ZADANIE 6 ##
 
 for x in range(1,100):
     if x % 5 == 0:
         print(x)
 
-## ZADANIE 7 ##
+# ## ZADANIE 7 ##
+
 a = input("Podaj 1 liczbe: ")
 b = input("Podaj 2 liczbe: ")
 
@@ -57,7 +59,7 @@ b = int(b)
 print("Kwadrat a: " + str(a**2))
 print("Kwadrat b: " + str(b**2))
 
-## ZADANIE 8 ##
+# ## ZADANIE 8 ##
 
 lista = ['j' , "Asia"]
 
@@ -71,18 +73,27 @@ while (a not in lista and b not in lista):
     lista.append(b)
 print(lista)
 
-## ZADANIE 9 ##
-## ZADANIE 10 ##
-## ZADANIE 11 ##
+# ## ZADANIE 9 ##
 
-## ZADANIE 12 ##
+# ## ZADANIE 10 ##
+h = int(input("Podaj wysokosc: "))
+
+for h in range (1,h+1):
+    print('A' * h)
+    if h > 10:
+        break
+
+# ## ZADANIE 11 ##
+
+# ## ZADANIE 12 ##
 
 for y in range(1,11):
     for x in range(1,11):
         print(x * y, end = "\t")
     print()
     
-## ZADANIE 14 ##
+# ## ZADANIE 14 ##
+
 import math
 
 try:
@@ -94,7 +105,7 @@ try:
 except ValueError:
     print("Blad! Podales liczbe ujemna!")
 
-## ZADANIE 15 ##
+# ## ZADANIE 15 ##
 
 try:
     a = input("Podaj liczbe calkowita: ")
@@ -102,6 +113,15 @@ try:
     print("Twoja liczba to: ", a)
 except ValueError:
     print("Blad! Podales znak zamiast liczby!")
+
+
+
+
+    
+    
+
+    
+
 
 
            
