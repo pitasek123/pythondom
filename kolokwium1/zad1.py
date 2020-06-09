@@ -1,0 +1,1 @@
+plik = open(zadanie1.txt, "w")
